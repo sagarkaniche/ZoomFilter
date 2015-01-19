@@ -1632,7 +1632,9 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int car1=0x7f020033;
+        public static final int car2=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
     }
     public static final class id {
         public static final int action_bar=0x7f090031;
@@ -1648,10 +1650,11 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090043;
+        public static final int action_settings=0x7f090047;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
+        public static final int brand=0x7f090043;
         public static final int btsort=0x7f090040;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090015;
@@ -1677,6 +1680,7 @@ containing a value of this type.
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
         public static final int normal=0x7f09000b;
+        public static final int price=0x7f090044;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09002b;
@@ -1691,6 +1695,7 @@ containing a value of this type.
         public static final int search_plate=0x7f090039;
         public static final int search_src_text=0x7f09003a;
         public static final int search_voice_btn=0x7f09003e;
+        public static final int select=0x7f090045;
         public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f090010;
         public static final int showHome=0x7f090011;
@@ -1701,6 +1706,7 @@ containing a value of this type.
         public static final int title=0x7f090027;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
+        public static final int value=0x7f090046;
         public static final int withText=0x7f090018;
         public static final int wrap_content=0x7f090009;
     }

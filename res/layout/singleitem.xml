@@ -9,14 +9,41 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/car1" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/brand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/ivimg"
-        android:text="Item Name" />
+        android:text="Chevrolet" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivimg"
+        android:layout_alignRight="@+id/title"
+        android:text="Price: Rs" />
+
+    <CheckBox
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price"
+        android:layout_alignBottom="@+id/price"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price"
+        android:layout_alignBottom="@+id/price"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/price"
+        android:text="9999" />
 
 </RelativeLayout>
